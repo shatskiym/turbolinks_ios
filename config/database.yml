@@ -11,5 +11,5 @@ test:
   database: turbolinks_test
 production:
   <<: *default
-  host: localhost
+  host: ENV['DATABASE_URL']
   database: turbolinks_production
