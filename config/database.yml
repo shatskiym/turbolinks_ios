@@ -9,3 +9,6 @@ development:
 test:
   <<: *default
   database: turbolinks_test
+production:
+  <<: *default
+  database: turbolinks_production
