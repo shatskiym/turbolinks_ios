@@ -11,4 +11,5 @@ test:
   database: turbolinks_test
 production:
   <<: *default
+  host: localhost
   database: turbolinks_production
